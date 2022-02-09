@@ -43,7 +43,7 @@ function App() {
     <div className="App">
       <Mybutton onClick={e => setVisible(true)}>Создать</Mybutton>
       <Postfilter  filter={filter} setFilter={setFilter} />
-     <br/ >
+     <br/  >
      
      
      <Postlist remove={removepost} posts={sortedandsearch} title={'Список постов 1'} />
