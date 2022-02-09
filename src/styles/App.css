@@ -1,0 +1,35 @@
+.App{
+    
+    
+
+}
+.Post{
+    width:250px;
+    border: 2px green;
+    border-style:double;
+    margin: 50px;
+    padding:10px;
+    align-items: center;
+    justify-content: space-between;
+    display:flex;
+
+}
+.Post_button{
+    
+    
+
+}
+.post-enter {
+  opacity: 0;
+}
+.post-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+.post-exit {
+  opacity: 1;
+}
+.post-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-in;
+}
