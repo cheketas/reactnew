@@ -1,3 +1,12 @@
 .myInp{
-    background:green;
+    width: 80%;
+    margin-left:10%;
+  height: 42px;
+  padding-left: 10px;
+  border: 2px solid #7BA7AB;
+  border-radius: 5px;
+  outline: none;
+  background: #F9F0DA;
+  color: #9E9C9C;
+
 }

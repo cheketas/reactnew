@@ -10,9 +10,9 @@ const Postfilter = ({filter,setFilter}) => {
        value={filter.sort}
        onChange = {e => setFilter({...filter,sort:e})}
        val={[
-      {value:'name',names:'title'},
-      {value:'text',names:'body'}
-      ]} defualt='sdss' />
+      {value:'title',names:'Названию'},
+      {value:'body',names:'Описанию'}
+      ]} defualt='Сортировка по' />
       </div>
   
   )

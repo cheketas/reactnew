@@ -21,9 +21,9 @@ const Postform = ({create}) => {
   return (
   <div>
       <form>
-       <Myinput value={postsn.name} onChange={e => setPostsn({...postsn,name:e.target.value})} placeholder='1'/><br/>
-       <Myinput value={postsn.title} onChange={e => setPostsn({...postsn,title:e.target.value})} placeholder='2'/><br/>
-       <Mybutton onClick={otp}>Отправить</Mybutton>
+       <Myinput value={postsn.name} onChange={e => setPostsn({...postsn,name:e.target.value})} placeholder='Название'/><br/><br/>
+       <Myinput value={postsn.title} onChange={e => setPostsn({...postsn,title:e.target.value})} placeholder='Описание'/><br/><br/>
+       <center><Mybutton onClick={otp}>Отправить</Mybutton></center>
      </form>
   </div>
   );

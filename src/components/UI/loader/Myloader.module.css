@@ -1,0 +1,12 @@
+.loader{
+    background:red;
+    animation: rotate 1s infinite linear;
+}
+@keyframes rotate {
+    from{
+        background:red;
+    }
+    to{
+        background:green;
+    }
+}
